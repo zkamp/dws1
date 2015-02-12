@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, Verdana, sans-serif;
-    background-color: #FFE297;
+    background-color: #FFCD29;
     
 }
 	
@@ -8,19 +8,50 @@ body {
 	border: 1px solid #403C34;
 	background-color: #403C34;
 	padding: 5px;
-	margin: 5px;
+	margin: 10px 20px 5px;
+	background-color: rgba(64, 60, 52, 0.5);
 }	
 
-h1, h2 {
+h1, h2, h3 {
 	color: #E55639;
-	
+	font-family: 'Roboto', sans-serif;
+	width: 300px;
+}
+
+h1 {
+	margin: 2px auto;
+}
+
+h2 {
+	margin: 10px 20px;
 }
 
 p {
 	color: #E59C61;
+	font-family: 'Roboto', sans-serif;
+	margin: 10px 20px;
 }	
 	
 strong {
 	color: #a1b2c3;
 }	
+
+li {
+	color: #E59C61;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: #FF4E1E
+	
+}
+
+a:hover {
+	color: #ffffff
+}
+
+blockquote {
+	color: #E59C61;
+	font-family: 'Roboto', sans-serif;
+}
 
