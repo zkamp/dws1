@@ -1,0 +1,26 @@
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+    background-color: #FFE297;
+    
+}
+	
+.container {
+	border: 1px solid #403C34;
+	background-color: #403C34;
+	padding: 5px;
+	margin: 5px;
+}	
+
+h1, h2 {
+	color: #E55639;
+	
+}
+
+p {
+	color: #E59C61;
+}	
+	
+strong {
+	color: #a1b2c3;
+}	
+
