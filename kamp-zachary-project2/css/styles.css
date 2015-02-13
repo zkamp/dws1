@@ -1,57 +1,83 @@
-body {
-    font-family: Helvetica, Verdana, sans-serif;
-    background-color: #FFCD29;
-    
+h1 {
+	margin: 2px auto;
+	width: 205px;
 }
-	
-.container {
-	border: 1px solid #403C34;
-	background-color: #403C34;
-	padding: 5px;
-	margin: 10px 20px 5px;
-	background-color: rgba(64, 60, 52, 0.5);
-}	
 
 h1, h2, h3 {
 	color: #E55639;
 	font-family: 'Roboto', sans-serif;
-	width: 300px;
+	text-shadow: 2px 2px #48484A;
 }
 
-h1 {
-	margin: 2px auto;
-}
-
-h2 {
+h2, h3 {
 	margin: 10px 20px;
 }
 
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+    background-color: #A6E7B9;
+    
+}
+	
+.container {
+	padding: 5px;
+	margin: 10px 20px 5px;
+	background-color: rgba(64, 60, 52, 0.7);
+	border-radius: 15px;
+	box-shadow: 1px 3px 2px 2px #48484A;
+}	
+
 p {
+	text-indent: 20px;
 	color: #E59C61;
 	font-family: 'Roboto', sans-serif;
 	margin: 10px 20px;
+	text-shadow: 1px 1px #48484A;
 }	
 	
 strong {
-	color: #a1b2c3;
+	color: #F2EA72;
+	font-weight: bolder;
 }	
 
 li {
+	display: inline;
 	color: #E59C61;
 	font-family: 'Roboto', sans-serif;
+	text-shadow: 1px 1px #48484A;
 }
 
 a {
-	color: #FF4E1E
-	
+	color: #F2DF80;
+	font-family: 'Roboto', sans-serif;
 }
 
 a:hover {
 	color: #ffffff
 }
 
+a:active {
+	color:#55747D;
+}
+/* Can't get a:visited to work */
+a:visited {
+	font-weight: bold;
+}
+
 blockquote {
 	color: #E59C61;
 	font-family: 'Roboto', sans-serif;
+	text-shadow: 1px 1px #48484A;
 }
 
+#images {
+	width: 480px;
+	margin: 10px auto;
+}
+
+figcaption {
+	color: #E59C61;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 1px 1px #48484A;
+	margin:  5px auto;
+}
