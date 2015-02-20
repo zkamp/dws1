@@ -1,0 +1,26 @@
+body {
+	font-size: 80%;
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 0.15em;	
+	background-color: #efefef;
+	}
+		
+ul {
+	list-style-type: none;
+	text-align: center;
+	}
+
+p {
+	text-align: center;
+	}
+	
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	
+a:hover, a#current-page {
+	color: #cc3333;
+	background-color: #ffffff;
+	}
